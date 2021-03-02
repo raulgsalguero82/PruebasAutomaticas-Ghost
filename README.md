@@ -626,7 +626,11 @@ style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span
 lang=EN-US>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-US>/features/web/step_definitios/web_steps.rb</span></p>
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'>4-<span
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'>
+ 
+ <br> Recuerde modificar el fichero properties.json y ajustar el usuario y password a aquellos configurados sobre la instancia de prueba 
+ <br>
+ 4-<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Use el
 siguiente commando, desde la raíz del directorio creado para ejecutar las pruebas:
 bundle exec kraken-mobile run --properties=properties.json</p>
