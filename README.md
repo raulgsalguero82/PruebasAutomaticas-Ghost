@@ -683,6 +683,45 @@ las pruebas nuevamente, esta vez con <span class=GramE>un vid</span><o:p></o:p><
 
 <p class=MsoListParagraphCxSpLast><span lang=ES style='mso-ansi-language:ES'><o:p>&nbsp;</o:p></span></p>
 
+
+
+<h1><span lang=EN-US>Pros y Contras de Kraken</span></h1>
+
+<h2><span lang=EN-US>Pros</span></h2>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Permite emular el comportamiento real que tendría un usuario
+contra la interfaz de tal manera que permite recrear escenarios de prueba de
+manera muy realista.</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Dado que permite interactuar y buscar elementos a partir del DOM
+mismo de la pagina es posible el encontrar y manipular objetos con bastante
+facilidad.</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>La utilización de faker para la generación de información aleatoria
+es un plus muy apreciable.</p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>La posibilidad de usar ficheros de propiedades facilita la ejecución</p>
+
+<h2>Contras</h2>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Seria deseable que permitiese unificar el reporte de todos los
+escenarios en un solo fichero </p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Los mensajes de error al ejecutar las pruebas son bastante crípticos
+con lo que se hace difícil la construcción de los scripts</p>
+
 <p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'><o:p>&nbsp;</o:p></span></p>
 
 <h1><span lang=ES style='mso-ansi-language:ES'>Pros y Contras de <span
