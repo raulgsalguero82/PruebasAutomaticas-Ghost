@@ -645,7 +645,7 @@ bundle exec kraken-mobile run --properties=properties.json</p>
 
 <h1><span lang=es-419>Ejecución de escenarios en Cypress</span></h1>
 
-<p class=MsoNormal><span lang=es-419>Código para ejecución de pruebas: cypressSource.zip</span></p>
+<p class=MsoNormal><span lang=es-419>Código para ejecución de pruebas: <a href="https://github.com/raulgsalguero82/PruebasAutomaticas-Ghost/blob/master/cypress-final.zip">cypress-final.zip</a></p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
 lang=es-419 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
@@ -683,7 +683,7 @@ lang=ES style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
 mso-ansi-language:ES'><span style='mso-list:Ignore'>6-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=ES style='mso-ansi-language:ES'>Correr
 <span class=SpellE>npx</span> <span class=SpellE>cypress</span> run para correr
-las pruebas nuevamente, esta vez con <span class=GramE>un vid</span><o:p></o:p></span></p>
+las pruebas nuevamente, esta vez con <span class=GramE>un video</span><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast><span lang=ES style='mso-ansi-language:ES'><o:p>&nbsp;</o:p></span></p>
 
