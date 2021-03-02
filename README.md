@@ -632,3 +632,111 @@ siguiente commando, desde la raíz del directorio creado para ejecutar las prueb
 bundle exec kraken-mobile run --properties=properties.json</p>
 
 <p class=MsoNormal>&nbsp;</p>
+
+
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span lang=es-419><o:p>&nbsp;</o:p></span></p>
+
+<h1><span lang=es-419>Ejecución de escenarios en Cypress</span></h1>
+
+<p class=MsoNormal><span lang=es-419>Código para ejecución de pruebas: cypressSource.zip</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+lang=es-419 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>1-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=es-419>Correr ghost con el comando
+ghost start y revisar que la aplicación este corriendo correctamente en <a
+href="http://localhost:2368/">http://localhost:2368/</a> </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+lang=es-419 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>2-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=es-419>Crear una cuenta de prueba con
+el email: <a href="mailto:example@example.com">example@example.com</a> y la
+contraseña: cypress-final</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+lang=es-419 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>3-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=es-419>Instalar Cypress </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+lang=es-419 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>4-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=es-419>Correr npx cypress open en la
+carpeta para encender el GUI</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+lang=es-419 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>5-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=es-419>Ir al GUI de Cypress y hacer click
+en boton Run 5 integration specs para ejecutar las pruebas</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+lang=ES style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+mso-ansi-language:ES'><span style='mso-list:Ignore'>6-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=ES style='mso-ansi-language:ES'>Correr
+<span class=SpellE>npx</span> <span class=SpellE>cypress</span> run para correr
+las pruebas nuevamente, esta vez con <span class=GramE>un vid</span><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast><span lang=ES style='mso-ansi-language:ES'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'><o:p>&nbsp;</o:p></span></p>
+
+<h1><span lang=ES style='mso-ansi-language:ES'>Pros y Contras de <span
+class=SpellE>Cypress</span><o:p></o:p></span></h1>
+
+<h2><span lang=ES style='mso-ansi-language:ES'>Pros<o:p></o:p></span></h2>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+lang=es-419 style='font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=es-419>Dado que utiliza el patrón Page Object Model, la complejidad del
+DOM es abstraída por la librería, por lo tanto nos podemos enfocar en las
+pruebas y no en los selectores y la manipulación del DOM</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+lang=es-419 style='font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=es-419>No existen dependencias que mantener manualmente a la hora de
+instalarlo y ejecutarlo</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+lang=es-419 style='font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=es-419>Hot-realoding que permite editar las pruebas y ver el cambio sin
+tener que volver a correr ningún comando</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+lang=es-419 style='font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=es-419>Permite automatizar versiones ligeras de varios navegadores</span></p>
+
+<h2><span lang=es-419>Contras</span></h2>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l1 level1 lfo5'><![if !supportLists]><span
+lang=es-419 style='font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=es-419>Cypress no ofrece funcionalidades para pruebas en dispositivos
+móviles</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l1 level1 lfo5'><![if !supportLists]><span
+lang=es-419 style='font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=es-419>Al utilizar el patrón Page Object Model, no se pueden probar
+funcionalidades nativas como subir imagen, enceder la camara, etc </span></p>
+
+</div>
+
+</body>
+
+</html>
+
