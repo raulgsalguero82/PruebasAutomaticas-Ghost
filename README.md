@@ -585,3 +585,50 @@
 </table>
 
 <p class=MsoNormal>&nbsp;</p>
+
+
+<h1>Ejecución de escenarios en kraken</h1>
+
+<p class=MsoNormal>Código para ejecución de pruebas: <a href="https://github.com/raulgsalguero82/PruebasAutomaticas-Ghost/blob/master/krakensource.zip?raw=true">krakensource.zip</a></p>
+<p class=MsoNormal>Los resultados de las pruebas se pueden ver en: <a href="https://github.com/raulgsalguero82/PruebasAutomaticas-Ghost/blob/master/Kraken-Resultados.zip?raw=true">Kraken-Resultados.zip</a> </p>
+
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'>1-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Instalar
+kraken </p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'>2-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Generar
+un nuevo directorio de ejecución kraken para pruebas web (exec bundle kraken-mobile
+gen)</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'>3-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Extraer
+los archivos de krakensource.zip dentro de la carpeta que acaba de generar. Una
+vez extraídos por favor verificar que los siguientes archivos están en su
+lugar:</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'>a.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>/properties.json</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'>b.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>/features/1-login.feature</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in'><span lang=EN-US>/features/2-creacionTag.feature</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in'><span lang=EN-US>/features/3-invitarUsuario.feature</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in'><span lang=EN-US>/features/4-adicionarLink.feature</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in'><span lang=EN-US>/features/5-editarPerfil.feature</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
+lang=EN-US>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>/features/web/step_definitios/web_steps.rb</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'>4-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Use el
+siguiente commando, desde la raíz del directorio creado para ejecutar las pruebas:
+bundle exec kraken-mobile run --properties=properties.json</p>
+
+<p class=MsoNormal>&nbsp;</p>
